@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards and Points</title>
+    <link rel="stylesheet" href="rewards.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Donation Rewards and Points</h1>
+        <div class="points-section">
+            <h2>Your Points</h2>
+            <p id="points">0</p>
+            <button onclick="donateBlood()">Donate Blood</button>
+        </div>
+        <div class="rewards-section">
+            <h2>Redeem Your Points</h2>
+            <ul>
+                <li>
+                    <span>Free Health Checkup - 1 Points</span>
+                    <button onclick="redeemReward(1)">Redeem</button>
+                </li>
+                <li>
+                    <span>Gift Voucher - 2 Points</span>
+                    <button onclick="redeemReward(2)">Redeem</button>
+                </li>
+                <li>
+                    <span>Event Ticket - 3 Points</span>
+                    <button onclick="redeemReward(3)">Redeem</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="rewards.js"></script>
+</body>
+</html>
